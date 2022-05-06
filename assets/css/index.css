@@ -78,13 +78,39 @@ nav > .name > h3{
     height: 350px;
 }
 
+#section4{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+#section4 > .photo4 > img{
+    width: 550px;
+    height: 350px;
+}
+#section4 > .right4{
+    width: 500px;
+    text-align:start;
+    margin-top: 20px;
+}
+#section6 {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+#section6 > .right6{
+    width: 500px;
+    text-align: ;
+}
+#section6 > .left6 > img{
+    width: 550px;
+    height: 350px;
+}
+.big{
+    color:#ec4067
+}
 #section5{
     display: flex;
     width:auto;
-    overflow-x: none;
-}
-#section5 > .rose > .photo5{
-    width: fit-content;
 }
 
 
