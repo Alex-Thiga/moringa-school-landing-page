@@ -1,22 +1,49 @@
 # Moringa School Website
-#### This page entails courses,projects,enrollment and activities done there. 30/4/2022
-#### By Alex Thiga
+
+## By Alex Thiga 30/4/2022
+
+##Table of content
+-[Description](#Description)
+-[Features](#Features)
+-[Requirements](#Requirements)
+-[Installation process](#Installation-process)
+-[Technology used](#Technology)
+-[Author's details[(#Authors-details)
+
 ## Description
+
 The website provides detailed information to prospective students. This includes:
 -An outline of the mission of Moringa School and how one can click a link to find out moe.
 -Stories section that gives a braod view of the activities that are held at Moringa School starting with orientation day,board meeting, graduation party. Each has a link to give further details.
 -A list of the technical mentors with their names, occupation,images and a short description.
 -A showcase of their >cool bike website with a photo attached and a link to learn more.
 -It provides a link to contact them.
+
+##Features
+
+-Users can access the school's information regarding contacts,courses,about and enrollment.
+
 ## Setup/Installation Requirements
--This website is hosted on gh-pages on github
+
+-Clone this repository https://github.com/Alex-Thiga/moringa-school-landing-page.git
+-Unzip the downloaded file in a preferred folder.
+-In the folder,open the index file and launch it in a browser.
+ 
 ## Known Bugs
+
 -So far no known bugs
-## Technologies Used
--Used HTML for structuring and CSS language to style the website.
+
+### Technologies Used
+
+*HTML-This was used to structure the website.
+*CSS-to style the website.
+
 ## Support and contact details
--Incase of any support dont hesitate email
+
+LinkedIn-[Alex Thiga](www.linkedin.com/in/alex-thiga-90ba85160)
+
 ### License
+
 MIT License
 
 Copyright (c) 2022 Alex Thiga
