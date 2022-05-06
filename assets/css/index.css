@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: white;
-    font-family: 'Nunito Sans'
+    font-family: 'Nunito',sans-serif
 }
 nav{
     display: flex;
@@ -26,53 +26,57 @@ nav > .name > h3{
     font-size: large;
     margin: 20px;
 }
-.section1{
+#section1{
     display: flex;
     margin: 50px;
 }
-.section1 > .left1 {
+#section1 > .left1 {
     margin-left: 20px;
-    align-items: center;
+    justify-content: center;
 }
-.section1 > .photo1 img{
+#section1 > .photo1 img{
     margin-left: 40px;
     width: 500px;
     height: 500px;
 }
-.section1 > .left1 > .explore{
+#section1 > .left1 > .explore{
     padding: 10px 20px;
     border: 1px solid #ec4067;
     color: #ec4067;
 }
-.section2{
+#section2{
     display: flex;
     margin: 50px;
 }
-.section2 > .left2{
+#section2 > .left2{
     margin-right: 60px;
 }
 
-.section2 > .left2 > .photo2 > img{
+#section2 > .left2 > .photo2 > img{
     width: 550px;
     height: 350px;
 
 }
 
-.section2 > .right2 {
+#section2 > .right2 {
     width: 550px;
     align-items: center;
     margin-top: 50px;
 }
-.section3{
+#section3{
     display: flex;
     margin: 50px;
 }
 
-.section3 > .left3{
+#section3 > .left3{
+    align-items: center;
     margin: 30px;
 }
 
-.section3 > .photo3 > img{
+#section3 > .photo3 > img{
     width: 550px;
     height: 350px;
+}
+#section5{
+    
 }
