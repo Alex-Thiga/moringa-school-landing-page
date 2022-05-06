@@ -28,10 +28,9 @@ nav > .name > h3{
 }
 .section1{
     display: flex;
-    justify-content: space-between;
     margin: 50px;
 }
-.section1 > .left {
+.section1 > .left1 {
     margin-left: 20px;
     align-items: center;
 }
@@ -40,21 +39,40 @@ nav > .name > h3{
     width: 500px;
     height: 500px;
 }
-.section1 > .left > .explore{
+.section1 > .left1 > .explore{
     padding: 10px 20px;
-    border: 1px solid;
+    border: 1px solid #ec4067;
+    color: #ec4067;
 }
 .section2{
     display: flex;
-    justify-content: space-between;
     margin: 50px;
 }
-.section2 > .photo2 > img{
-    width: 500px;
-    height: 500ox;
+.section2 > .left2{
+    margin-right: 40px;
+}
+
+.section2 > .left2> .photo2 > img{
+    width: 600px;
+    height: 400px;
 
 }
-.section2 > .photo2 > .right{
-    width: 400px;
+
+.section2 > .right2 {
+    width: 550px;
     align-items: center;
+    margin-top: 50px;
+}
+.section3{
+    display: flex;
+    margin: 50px;
+}
+
+.section3 > .left3{
+    margin: 30px;
+}
+
+.section3 > .photo3 > img{
+    width: 550px;
+    height: 350px;
 }
