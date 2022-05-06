@@ -1,40 +1,60 @@
-ul{
-    list-style-type:none;
-    margin:0;
-    padding:0;
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Nunito Sans'
 }
-li{
-    display:inline;
+nav{
+    display: flex;
+    justify-content: space-between;
 }
-.btn{
-    text-decoration: none;
-    padding:5px 10px;
-    background-color: #ec4067;
-    border-radius:20px;
-    color:white
+nav > .links > ul > li{
+    display: inline-block;
+    padding: 20px;
 }
-a{
-    display:inline-block;
-    padding:10px;
-
-}
-.big{
-    font-size:xx-large;
+span{
     color: #ec4067;
 }
-.home{
-    font-family: 'arial', serif;
-    
+.button{
+    padding: 10px 20px;
+    background-color: #ec4067;
+    border: 1px solid #ec4067;
+    border-radius: 8px;
+    color: white;
+} 
+nav > .name > h3{
+    font-size: large;
+    margin: 20px;
 }
-.list{
-    text-decoration: none;
+.section1{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.section1 > .left {
+    margin-left: 20px;
+    align-items: center;
+}
+.section1 > .photo1 img{
+    margin-left: 40px;
+    width: 500px;
+    height: 500px;
+}
+.section1 > .left > .explore{
+    padding: 10px 20px;
+    border: 1px solid;
+}
+.section2{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.section2 > .photo2 > img{
+    width: 500px;
+    height: 500ox;
 
 }
-.decoration{
-    padding:5px 10px;
-    background-color: #ec4067;
-    width:fit-content;
-    border-radius: 10px;
-    text-decoration: none;
-    color:white;
+.section2 > .photo2 > .right{
+    width: 400px;
+    align-items: center;
 }
