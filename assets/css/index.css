@@ -77,6 +77,15 @@ nav > .name > h3{
     width: 550px;
     height: 350px;
 }
+
 #section5{
-    
+    display: flex;
+    width:auto;
+    overflow-x: none;
 }
+#section5 > .rose > .photo5{
+    width: fit-content;
+}
+
+
+    
