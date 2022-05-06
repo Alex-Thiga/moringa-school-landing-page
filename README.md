@@ -8,7 +8,7 @@
 -[Requirements](#Requirements)
 -[Installation process](#Installation-process)
 -[Technology used](#Technology)
--[Author's details[(#Authors-details)
+-[Author's details](#Authors-details)
 
 ## Description
 
