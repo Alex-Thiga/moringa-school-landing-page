@@ -49,12 +49,12 @@ nav > .name > h3{
     margin: 50px;
 }
 .section2 > .left2{
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
-.section2 > .left2> .photo2 > img{
-    width: 600px;
-    height: 400px;
+.section2 > .left2 > .photo2 > img{
+    width: 550px;
+    height: 350px;
 
 }
 
