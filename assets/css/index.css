@@ -155,7 +155,13 @@ nav > .name > h3{
 .still{
     margin: 30px;
 }
-
+.designedBy{
+    text-align: center;
+    margin: 30px;
+    border: 1px solid rgb(177, 175, 175);
+    padding: 20px;
+    background-color: rgb(172, 168, 168);
+}
 
 
     
