@@ -2,7 +2,8 @@ body{
     margin: 0;
     padding: 0;
     background-color: white;
-    font-family: 'Nunito',sans-serif
+    font-family: 'Nunito',sans-serif;
+    overflow-x: hidden;
 }
 nav{
     display: flex;
@@ -92,25 +93,58 @@ nav > .name > h3{
     text-align:start;
     margin-top: 20px;
 }
+.technical{
+    font-size:x-large;
+    margin:30px;
+
+}
+
+#section5 > .mentors{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:30px;
+
+}
+#section5 >.mentors > .rose{
+    width: 20%;
+}
+#section5 >.mentors > .rose >.photo5 > img{
+    width:100% ;
+}
+#section5 >.mentors > .albert{
+    width: 20%;
+}
+#section5 >.mentors > .albert >.photo6 > img{
+    width: 100%;
+}
+#section5 >.mentors > .katana{
+    width: 20%;
+}
+#section5 >.mentors > .katana >.photo7 > img{
+    width: 100%;
+}
+#section5 >.mentors > .karimi{
+    width: 20%;
+}
+#section5 >.mentors > .karimi >.photo8 > img{
+    width: 100%;
+}
 #section6 {
     display: flex;
-    justify-content: space-between;
-    margin: 30px;
+}
+#section6 > .left6{
+    text-align: justify;
 }
 #section6 > .right6{
-    width: 500px;
-    text-align: ;
-}
-#section6 > .left6 > img{
-    width: 550px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
 }
 .big{
     color:#ec4067
 }
-#section5{
-    display: flex;
-    width:auto;
+#footer > .designedBy{
+    background-color: rgb(165, 158, 158);
 }
 
 
