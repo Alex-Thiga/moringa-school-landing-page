@@ -91,7 +91,7 @@ nav > .name > h3{
 #section4 > .right4{
     width: 500px;
     text-align:start;
-    margin-top: 20px;
+    margin-left: 30px;
 }
 .technical{
     font-size:x-large;
@@ -102,7 +102,7 @@ nav > .name > h3{
 #section5 > .mentors{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin:30px;
 
 }
@@ -130,22 +130,32 @@ nav > .name > h3{
 #section5 >.mentors > .karimi >.photo8 > img{
     width: 100%;
 }
+
 #section6 {
     display: flex;
+    margin: 40px 0px ;
 }
 #section6 > .left6{
-    text-align: justify;
+    margin-left: 30px;
+    width: 40%;
 }
-#section6 > .right6{
-    width: 300px;
-    height: 300px;
+#section6 > .photo9 > img{
+    margin-right: 30px ;
+    width: 550px;
+    height: 350px;
+}
+.paragraph{
+    color: #ec4067;
+    font-size: larger;
+    font-weight: 600;
 }
 .big{
     color:#ec4067
 }
-#footer > .designedBy{
-    background-color: rgb(165, 158, 158);
+.still{
+    margin: 30px;
 }
+
 
 
     
